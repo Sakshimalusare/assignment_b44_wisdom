@@ -1,0 +1,47 @@
+.about {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about {
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.about h2, .about p {
+    position: relative;
+    z-index: 2;
+}

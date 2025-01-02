@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background: #282c34;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  background: #282c34;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
