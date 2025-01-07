@@ -1,13 +1,12 @@
-import React from 'react'
-import "./About.css"
+import React from 'react';
 
-function About () {
+const About = () => {
   return (
-    <section id='about' className='about'>
-        <h2>About us</h2>
-        <p>Our company is a leading provider of innovative solutions for the modern world.</p>
-    </section>
-  )
-}
+    <div className="about">
+      <h2>About Us</h2>
+      <p>This website is built using React and React Router.</p>
+    </div>
+  );
+};
 
-export default About
+export default About;
